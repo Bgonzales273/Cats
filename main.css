@@ -22,11 +22,25 @@ background: url("background.png");
 	border-radius:25px;
 	float:left;
 	padding:10px 10px 10px 10px;
+	margin:10px 10px 10px 10px; 
 	color: rgba(255,255,255,1.00);
 	text-align:center;
 	
+	
 }
 .right{
+	width:350px;
+	height:200px;
+	background-color:rgba(128,80,80,.6);
+	border-radius:25px;
+	float:left;
+	margin:10px 10px 10px 10px; 
+	padding:10px 10px 10px 10px;
+	text-align: center;
+	color:white;
+	
+}
+.bottom{
 	width:350px;
 	height:200px;
 	background-color:rgba(128,80,80,.6);
@@ -38,9 +52,22 @@ background: url("background.png");
 	color:white;
 	
 }
+a{
+	color:#419787;
+}
+a:hover{
+	color:#feabab
+}
+a:visitied{
+	color:white
+}
 footer{
 	background-color:rgba(254,171,171,.4);
 	clear:both;
 }
 	header> h1 {text-align:center;color:rgba(171,255,195,.4);
+	
+}
+h2{
+	font-family:"Sofia"
 }
